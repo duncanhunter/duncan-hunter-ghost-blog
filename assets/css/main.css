@@ -101,7 +101,7 @@ a
   -o-transition-duration: .2s;
   -webkit-transition-duration: .2s;
   transition-duration: .2s;
-  color: #ccb285;
+  color: #f96816;
 }
 
 button, input, label, select, textarea
@@ -328,7 +328,7 @@ blockquote:before
   content: '\201C';
   display: block;
   font-size: 5.1em;
-  color: #ccb285;
+  color: #f96816;
   text-align: center;
 }
 
@@ -337,7 +337,7 @@ blockquote:after
   content: '\201D';
   display: block;
   font-size: 5.1em;
-  color: #ccb285;
+  color: #f96816;
   text-align: center;
 }
 
@@ -379,7 +379,8 @@ pre, code
   width: 400px;
   padding: 20px 50px 50px 50px;
   font-family: Tahoma, Geneva, sans-serif;
-  background-color: rgba(239, 237, 231, 0.46);
+  /*background-color: rgba(239, 237, 231, 0.46);*/
+  background-color: #f4f4f1;
   height: 100%;
   font-size: 1.1em;
   border-left: 1px solid #cec9c4;
@@ -468,7 +469,7 @@ pre, code
 
   .sidebar-featured-item a:hover
   {
-    color: #ccb285;
+    color: #f96816;
   }
 
 /* Sidebar stuff end. */
@@ -595,7 +596,7 @@ th, td
 .article_text ul > li:before
 {
   content: "\002022";
-  color: #ccb285;
+  color: #f96816;
   padding-right: .5em;
 }
 
@@ -964,7 +965,7 @@ th, td
 {
   padding: 12px 33px;
   color: #fcfbf7;
-  background-color: #ccb285;
+  background-color: #f96816;
   letter-spacing: 1.5px;
   -webkit-transition: ease-out .4s;
   -moz-transition: ease-out .4s;
@@ -981,7 +982,7 @@ th, td
 {
   width: 100%;
   background-color: transparent;
-  color: #ccb285;
+  color: #f96816;
 }
 
   .button-load:hover
@@ -1461,7 +1462,7 @@ th, td
 .article_link-more
 {
   border: none;
-  color: #ccb285;
+  color: #f96816;
   margin-left: 0.2em;
   text-decoration: none;
 }
@@ -1698,7 +1699,7 @@ th, td
 
   .article .post_info a, .post_info a
   {
-    color: #ccb285;
+    color: #f96816;
     border-bottom: 1px solid;
   }
 
@@ -1919,7 +1920,7 @@ th, td
 
 .article-open_author_bio a
 {
-  color: #ccb285;
+  color: #f96816;
 }
 
 .article-open_author p
@@ -2144,19 +2145,19 @@ th, td
 
 .footer_subscription_block
 {
-  background-color: #2f2d26;
+  background-color: #222222;
   padding-left: 10%;
   padding-right: 10%;
 }
 
 .footer_info_block, .footer_informations_block
 {
-  background-color: #2c2a24;
+  background-color: #222222;
 }
 
 .footer_info_block
 {
-  border-top: 1px solid #322f29;
+  border-top: 1px solid #222222;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -2179,7 +2180,7 @@ footer a
 .footer_subscription_formGroup h4
 {
   font-style: italic;
-  color: #ccb285;
+  color: #f96816;
   margin-bottom: 1rem;
 }
 
@@ -2209,7 +2210,7 @@ footer a
 
   .footer_informations .button, .footer_informations .button-load, .footer_informations .navMenu_link, .footer_informations h6
   {
-    color: #ccb285;
+    color: #f96816;
   }
 
 @media (min-width:0)and (max-width:48em)

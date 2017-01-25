@@ -379,7 +379,6 @@ pre, code
   width: 400px;
   padding: 20px 50px 50px 50px;
   font-family: Tahoma, Geneva, sans-serif;
-  /*background-color: rgba(239, 237, 231, 0.46);*/
   background-color: #f4f4f1;
   height: 100%;
   font-size: 1.1em;
@@ -1128,7 +1127,6 @@ th, td
     color: #847b79;
     display: block;
     background-color: rgba(252,251,247,.13);
-    /*border-radius: 50%;*/
     border-radius: 1px;
     width: 32px;
     height: 32px;

@@ -21,7 +21,7 @@ gulp.task('bundle-minify-google-analytics', function () {
 
 gulp.task('styles-build', function() {
   return gulp.src('assets/css/main.css')
-   // .pipe(cmq())
+    // .pipe(cmq())
 	.pipe(cssmin())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('assets/css'));

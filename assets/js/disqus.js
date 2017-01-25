@@ -1,4 +1,4 @@
-var disqus_shortname = 'troyhunt';
+var disqus_shortname = 'duncanhunter';
 (function () {
   var s = document.createElement('script');
   s.async = true;

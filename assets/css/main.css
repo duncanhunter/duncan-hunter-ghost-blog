@@ -1898,7 +1898,7 @@ th, td
   height: 106px;
   background-size: cover;
   background-position: center center;
-  border-radius: 100%;
+  border-radius: 2px;
 }
 
 .article-open_author_bio

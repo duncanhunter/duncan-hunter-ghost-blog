@@ -101,7 +101,7 @@ a
   -o-transition-duration: .2s;
   -webkit-transition-duration: .2s;
   transition-duration: .2s;
-  color: #C3002F;
+  color: #6b6b6b;
 }
 
 button, input, label, select, textarea
@@ -328,7 +328,7 @@ blockquote:before
   content: '\201C';
   display: block;
   font-size: 5.1em;
-  color: #C3002F;
+  color: #6b6b6b;
   text-align: center;
 }
 
@@ -337,7 +337,7 @@ blockquote:after
   content: '\201D';
   display: block;
   font-size: 5.1em;
-  color: #C3002F;
+  color: #6b6b6b;
   text-align: center;
 }
 
@@ -433,7 +433,7 @@ pre, code
 
 .content-sidebar a
 {
-  color: #C3002F;
+  color: #6b6b6b;
   text-decoration: underline;
 }
 
@@ -468,7 +468,7 @@ pre, code
 
   .sidebar-featured-item a:hover
   {
-    color: #C3002F;
+    color: #6b6b6b;
   }
 
 /* Sidebar stuff end. */
@@ -595,7 +595,7 @@ th, td
 .article_text ul > li:before
 {
   content: "\002022";
-  color: #C3002F;
+  color: #6b6b6b;
   padding-right: .5em;
 }
 
@@ -964,7 +964,7 @@ th, td
 {
   padding: 12px 33px;
   color: #fcfbf7;
-  background-color: #C3002F;
+  background-color: #6b6b6b;
   letter-spacing: 1.5px;
   -webkit-transition: ease-out .4s;
   -moz-transition: ease-out .4s;
@@ -981,7 +981,7 @@ th, td
 {
   width: 100%;
   background-color: transparent;
-  color: #C3002F;
+  color: #6b6b6b;
 }
 
   .button-load:hover
@@ -1460,7 +1460,7 @@ th, td
 .article_link-more
 {
   border: none;
-  color: #C3002F;
+  color: #6b6b6b;
   margin-left: 0.2em;
   text-decoration: none;
 }
@@ -1609,7 +1609,7 @@ th, td
 .article_readNext h4
 {
   margin: 0;
-  font-style: italic;
+  /*font-style: italic;*/
   line-height: 1.2em;
   padding-bottom: 5px;
   margin-top: 10px;
@@ -1697,7 +1697,7 @@ th, td
 
   .article .post_info a, .post_info a
   {
-    color: #C3002F;
+    color: #6b6b6b;
     border-bottom: 1px solid;
   }
 
@@ -1918,7 +1918,7 @@ th, td
 
 .article-open_author_bio a
 {
-  color: #C3002F;
+  color: #6b6b6b;
 }
 
 .article-open_author p
@@ -2178,7 +2178,7 @@ footer a
 .footer_subscription_formGroup h4
 {
   font-style: italic;
-  color: #C3002F;
+  color: #6b6b6b;
   margin-bottom: 1rem;
 }
 
@@ -2208,7 +2208,7 @@ footer a
 
   .footer_informations .button, .footer_informations .button-load, .footer_informations .navMenu_link, .footer_informations h6
   {
-    color: #C3002F;
+    color: #6b6b6b;
   }
 
 @media (min-width:0)and (max-width:48em)

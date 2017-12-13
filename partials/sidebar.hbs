@@ -1,53 +1,76 @@
 <div class="content-sidebar">
 
-    {{#is "home"}}
-    {{else}}
-        <div class="widget sidebar-featured">
-            <h4 class="sidebar-featured-header">Duncan Hunter</h4>
-            <p>{{@blog.description}} <a href="/about" class="article_link-more fa fa-long-arrow-right"></a></p>
-        </div>
-    {{/is}}
-    
-    {{!-- <div class="widget sidebar-featured">
+    {{#is "home"}} {{else}}
+    <div class="widget sidebar-featured">
+        <h4 class="sidebar-featured-header">Duncan Hunter</h4>
+        <p>{{@blog.description}}
+            <a href="/about" class="article_link-more fa fa-long-arrow-right"></a>
+        </p>
+    </div>
+    {{/is}} {{!--
+    <div class="widget sidebar-featured">
         <h4 class="sidebar-featured-header">Upcoming Events</h4>
         <ol>
-            <li><a href="http://cph.ndcmini.com/workshop/angularjs-2-0/">NDC Copenhagen Workshop 2 day Angular workshop Feb 2017, Copenhagen (Denmark)</a></li>
-            <li><a href="https://firebootcamp.com/angular-2-workshop/">Angular 2 day Workshop, 2-3 March 2017, Brisbane (Australia)</a></li>
-            <li><a href="https://firebootcamp.com/angular-2-workshop/">Angular 2 day Workshop, 9-10 March 2017, Melbourne (Australia)</a></li>
-            <li><a href="https://firebootcamp.com/angular-2-workshop/">Angular 2 day Workshop, 16-17 March 2017, Sydney (Australia)</a></li>
-            <li><a href="https://www.meetup.com/en-AU/AngularJS-Melbourne/events/237309609/">Angular Mini Conf, 21 March 2017, Melbourne (Australia)</a></li>
+            <li>
+                <a href="http://cph.ndcmini.com/workshop/angularjs-2-0/">NDC Copenhagen Workshop 2 day Angular workshop Feb 2017, Copenhagen (Denmark)</a>
+            </li>
+            <li>
+                <a href="https://firebootcamp.com/angular-2-workshop/">Angular 2 day Workshop, 2-3 March 2017, Brisbane (Australia)</a>
+            </li>
+            <li>
+                <a href="https://firebootcamp.com/angular-2-workshop/">Angular 2 day Workshop, 9-10 March 2017, Melbourne (Australia)</a>
+            </li>
+            <li>
+                <a href="https://firebootcamp.com/angular-2-workshop/">Angular 2 day Workshop, 16-17 March 2017, Sydney (Australia)</a>
+            </li>
+            <li>
+                <a href="https://www.meetup.com/en-AU/AngularJS-Melbourne/events/237309609/">Angular Mini Conf, 21 March 2017, Melbourne (Australia)</a>
+            </li>
         </ol>
-    </div> --}}
-    
-    {{!--<div class="widget sidebar-featured ad">
-      <div id="ad1" class="panel" data-type="ad" data-publisher="lqm.troyhunt.site" data-zone="ron" data-format="300x250"></div>
-    </div>--}}
+    </div> --}} {{!--
 
-    {{!-- <div class="widget sidebar-featured">
+    <div class="widget sidebar-featured ad">
+        <div id="ad1" class="panel" data-type="ad" data-publisher="lqm.troyhunt.site" data-zone="ron" data-format="300x250"></div>
+    </div>--}} {{!--
+    <div class="widget sidebar-featured">
         <h4 class="sidebar-featured-header">Must Read</h4>
         {{#get "posts" limit="all" filter="featured:true"}}
-            <ul>
+        <ul>
             {{#foreach posts}}
-                <li><a href="{{url}}">{{title}}</a></li>
+            <li>
+                <a href="{{url}}">{{title}}</a>
+            </li>
             {{/foreach}}
-            </ul>
-        {{else}}
-            {{#if @error}}{{@error}}{{/if}}
-        {{/get}}
+        </ul>
+        {{else}} {{#if @error}}{{@error}}{{/if}} {{/get}}
     </div> --}}
-    
+
     <div class="widget sidebar-featured">
-        <h4 class="sidebar-featured-header">Pluralsight Courses</h4>
+        <h4 class="sidebar-featured-header">Upcoming Workshops</h4>
         <ol>
-            <li><a href="https://app.pluralsight.com/library/courses/angularfire2-building-apps/table-of-contents">Building Apps With AngularFire 2</a></li>
-            <li><a href="https://app.pluralsight.com/library/courses/play-by-play-angular-ngrx/table-of-contents">Play by Play Angular and ngrx</a></li>
+            <li>
+                <a href="https://ndc-london.com/workshop/ngrx-workshop/">Workshop: Enterprise Angular applications with ngrx and nx</a>
+            </li>
         </ol>
     </div>
 
-    
-    
-    {{!--<div class="widget sidebar-featured ad">
-      <div id="ad2" class="panel" data-type="ad" data-publisher="lqm.troyhunt.site" data-zone="ron" data-format="160x600"></div>
+    <div class="widget sidebar-featured">
+        <h4 class="sidebar-featured-header">Pluralsight Courses</h4>
+        <ol>
+            <li>
+                <a href="https://app.pluralsight.com/library/courses/angularfire2-building-apps/table-of-contents">Building Apps With AngularFire 2</a>
+            </li>
+            <li>
+                <a href="https://app.pluralsight.com/library/courses/play-by-play-angular-ngrx/table-of-contents">Play by Play Angular and ngrx</a>
+            </li>
+        </ol>
+    </div>
+
+
+
+    {{!--
+    <div class="widget sidebar-featured ad">
+        <div id="ad2" class="panel" data-type="ad" data-publisher="lqm.troyhunt.site" data-zone="ron" data-format="160x600"></div>
     </div>--}}
 
 </div>
